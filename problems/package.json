@@ -1,0 +1,24 @@
+{
+  "name": "leetcode.problems",
+  "version": "0.0.0",
+  "description": "",
+  "private": "true",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snakeneedy/LeetCode.git"
+  },
+  "keywords": [
+    "leetcode"
+  ],
+  "author": "Pin-Xuan She",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/snakeneedy/LeetCode/issues"
+  },
+  "homepage": "https://github.com/snakeneedy/LeetCode#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
