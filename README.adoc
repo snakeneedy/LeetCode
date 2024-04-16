@@ -1,1 +1,3 @@
 = LeetCode
+
+* xref:studyplan/LeetCode 75.adoc[]
