@@ -1,26 +1,170 @@
 = LeetCode 75
+:toc: macro
 
 https://leetcode.com/studyplan/leetcode-75/
 
-. Array / String
-. Two Pointers
-. Sliding Window
-. Prefix Sum
-. Hash Map / Set
-. Stack
-. Queue
-. Linked List
-. Binary Tree - DFS
-. Binary Tree - BFS
-. Binary Search Tree
-. Graphs - DFS
-. Graphs - BFS
-. Heap / Priority Queue
-. Binary Search
-. Backtracking
-. DP - 1D
-. DP - Multidimensional
-. Bit Manipulation
-. Trie
-. Intervals
-. Monotonic Stack
+toc::[]
+
+== Array / String
+
+[%autowidth.stretch]
+|===
+| Status | Title | Difficulty | Tags
+
+| - | 1768. Merge Strings Alternately | Easy | `Two Pointers` `String`
+| - | 1071. Greatest Common Divisor of Strings | Easy | `Math` `String`
+| - | 1431. Kids With the Greatest Number of Candies | Easy |
+| - | 605. Can Place Flowers | Easy |
+| - | 345. Reverse Vowels of a String | Easy |
+| - | 151. Reverse Words in a String | Medium |
+| - | 238. Product of Array Except Self | Medium |
+| - | 334. Increasing Triplet Subsequence | Medium |
+| - | 443. String Compression | Medium |
+|===
+
+== Two Pointers
+
+[%autowidth.stretch]
+|===
+| Status | Title | Difficulty | Tags
+|===
+
+== Sliding Window
+
+[%autowidth.stretch]
+|===
+| Status | Title | Difficulty | Tags
+|===
+
+== Prefix Sum
+
+[%autowidth.stretch]
+|===
+| Status | Title | Difficulty | Tags
+|===
+
+== Hash Map / Set
+
+[%autowidth.stretch]
+|===
+| Status | Title | Difficulty | Tags
+|===
+
+== Stack
+
+[%autowidth.stretch]
+|===
+| Status | Title | Difficulty | Tags
+|===
+
+== Queue
+
+[%autowidth.stretch]
+|===
+| Status | Title | Difficulty | Tags
+|===
+
+== Linked List
+
+[%autowidth.stretch]
+|===
+| Status | Title | Difficulty | Tags
+|===
+
+== Binary Tree - DFS
+
+[%autowidth.stretch]
+|===
+| Status | Title | Difficulty | Tags
+|===
+
+== Binary Tree - BFS
+
+[%autowidth.stretch]
+|===
+| Status | Title | Difficulty | Tags
+|===
+
+== Binary Search Tree
+
+[%autowidth.stretch]
+|===
+| Status | Title | Difficulty | Tags
+|===
+
+== Graphs - DFS
+
+[%autowidth.stretch]
+|===
+| Status | Title | Difficulty | Tags
+|===
+
+== Graphs - BFS
+
+[%autowidth.stretch]
+|===
+| Status | Title | Difficulty | Tags
+|===
+
+== Heap / Priority Queue
+
+[%autowidth.stretch]
+|===
+| Status | Title | Difficulty | Tags
+|===
+
+== Binary Search
+
+[%autowidth.stretch]
+|===
+| Status | Title | Difficulty | Tags
+|===
+
+== Backtracking
+
+[%autowidth.stretch]
+|===
+| Status | Title | Difficulty | Tags
+|===
+
+== DP - 1D
+
+[%autowidth.stretch]
+|===
+| Status | Title | Difficulty | Tags
+|===
+
+== DP - Multidimensional
+
+[%autowidth.stretch]
+|===
+| Status | Title | Difficulty | Tags
+|===
+
+== Bit Manipulation
+
+[%autowidth.stretch]
+|===
+| Status | Title | Difficulty | Tags
+|===
+
+== Trie
+
+[%autowidth.stretch]
+|===
+| Status | Title | Difficulty | Tags
+|===
+
+== Intervals
+
+[%autowidth.stretch]
+|===
+| Status | Title | Difficulty | Tags
+|===
+
+== Monotonic Stack
+
+[%autowidth.stretch]
+|===
+| Status | Title | Difficulty | Tags
+|===
