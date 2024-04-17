@@ -1,0 +1,6 @@
+= 735. Asteroid Collision
+
+https://leetcode.com/problems/asteroid-collision/description/?envType=study-plan-v2&envId=leetcode-75
+
+* Difficulty: Medium
+* Topics: `Array` `Stack` `Simulation`

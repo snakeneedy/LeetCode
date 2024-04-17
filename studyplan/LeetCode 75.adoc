@@ -11,15 +11,15 @@ toc::[]
 |===
 | Status | Title | Difficulty | Tags
 
-| - | 1768. Merge Strings Alternately | Easy | `Two Pointers` `String`
-| - | 1071. Greatest Common Divisor of Strings | Easy | `Math` `String`
-| - | 1431. Kids With the Greatest Number of Candies | Easy |
-| - | 605. Can Place Flowers | Easy |
-| - | 345. Reverse Vowels of a String | Easy |
-| - | 151. Reverse Words in a String | Medium |
-| - | 238. Product of Array Except Self | Medium |
-| - | 334. Increasing Triplet Subsequence | Medium |
-| - | 443. String Compression | Medium |
+| - | xref:../problems/1768/1768. Merge Strings Alternately.adoc[1768. Merge Strings Alternately] | Easy | `Two Pointers` `String`
+| - | xref:../problems/1071/1071. Greatest Common Divisor of Strings.adoc[1071. Greatest Common Divisor of Strings] | Easy | `Math` `String`
+| - | xref:../problems/1431/1431. Kids With the Greatest Number of Candies.adoc[1431. Kids With the Greatest Number of Candies] | Easy | `Array`
+| - | xref:../problems/605/605. Can Place Flowers.adoc[605. Can Place Flowers] | Easy | `Array` `Greedy`
+| - | xref:../problems/345/345. Reverse Vowels of a String.adoc[345. Reverse Vowels of a String] | Easy | `Two Pointers` `String`
+| - | xref:../problems/151/151. Reverse Words in a String.adoc[151. Reverse Words in a String] | Medium | `Two Pointers` `String`
+| - | xref:../problems/238/238. Product of Array Except Self.adoc[238. Product of Array Except Self] | Medium | `Array` `Prefix Sum`
+| - | xref:../problems/334/334. Increasing Triplet Subsequence.adoc[334. Increasing Triplet Subsequence] | Medium | `Array` `Greedy`
+| - | xref:../problems/443/443. String Compression.adoc[443. String Compression] | Medium | `Two Pointers` `String`
 |===
 
 == Two Pointers
@@ -27,6 +27,11 @@ toc::[]
 [%autowidth.stretch]
 |===
 | Status | Title | Difficulty | Tags
+
+| - | xref:../problems/283/283. Move Zeroes.adoc[283. Move Zeroes] | Easy | `Array` `Two Pointers`
+| - | xref:../problems/392/392. Is Subsequence.adoc[392. Is Subsequence] | Easy | `Two Pointers` `String` `Dynamic Programming`
+| - | xref:../problems/11/11. Container With Most Water.adoc[11. Container With Most Water] | Medium | `Array` `Two Pointers` `Greedy`
+| - | xref:../problems/1679/1679. Max Number of K-Sum Pairs.adoc[1679. Max Number of K-Sum Pairs] | Medium | `Array` `Hash Table` `Two Pointers` `Sorting`
 |===
 
 == Sliding Window
@@ -34,6 +39,11 @@ toc::[]
 [%autowidth.stretch]
 |===
 | Status | Title | Difficulty | Tags
+
+| - | xref:../problems/643/643. Maximum Average Subarray I.adoc[643. Maximum Average Subarray I] | Easy | `Array` `Sliding Window`
+| - | xref:../problems/1456/1456. Maximum Number of Vowels in a Substring of Given Length.adoc[1456. Maximum Number of Vowels in a Substring of Given Length] | Medium | `String` `Sliding Window`
+| - | xref:../problems/1004/1004. Max Consecutive Ones III.adoc[1004. Max Consecutive Ones III] | Medium | `Array` `Binary Search` `Sliding Window` `Prefix Sum`
+| - | xref:../problems/1493/1493. Longest Subarray of 1's After Deleting One Element.adoc[1493. Longest Subarray of 1's After Deleting One Element] | Medium | `Array` `Binary Search` `Sliding Window` `Prefix Sum`
 |===
 
 == Prefix Sum
@@ -41,6 +51,9 @@ toc::[]
 [%autowidth.stretch]
 |===
 | Status | Title | Difficulty | Tags
+
+| - | xref:../problems/1732/1732. Find the Highest Altitude.adoc[1732. Find the Highest Altitude] | Easy | `Array` `Prefix Sum`
+| - | xref:../problems/724/724. Find Pivot Index.adoc[724. Find Pivot Index] | Easy | `Array` `Prefix Sum`
 |===
 
 == Hash Map / Set
@@ -48,6 +61,11 @@ toc::[]
 [%autowidth.stretch]
 |===
 | Status | Title | Difficulty | Tags
+
+| - | xref:../problems/2215/2215. Find the Difference of Two Arrays.adoc[2215. Find the Difference of Two Arrays] | Easy | `Array` `Hash Table`
+| - | xref:../problems/1207/1207. Unique Number of Occurrences.adoc[1207. Unique Number of Occurrences] | Easy | `Array` `Hash Table`
+| - | xref:../problems/1657/1657. Determine if Two Strings Are Close.adoc[1657. Determine if Two Strings Are Close] | Medium | `Hash Table` `String` `Sorting` `Counting`
+| - | xref:../problems/2352/2352. Equal Row and Column Pairs.adoc[2352. Equal Row and Column Pairs] | Medium | `Array` `Hash Table` `Matrix` `Simulation`
 |===
 
 == Stack
@@ -55,6 +73,10 @@ toc::[]
 [%autowidth.stretch]
 |===
 | Status | Title | Difficulty | Tags
+
+| - | xref:../problems/2390/2390. Removing Stars From a String.adoc[2390. Removing Stars From a String] | Medium | `String` `Stack` `Simulation`
+| - | xref:../problems/735/735. Asteroid Collision.adoc[735. Asteroid Collision] | Medium |
+| - | xref:../problems/394/394. Decode String.adoc[394. Decode String] | Medium |
 |===
 
 == Queue
@@ -62,6 +84,9 @@ toc::[]
 [%autowidth.stretch]
 |===
 | Status | Title | Difficulty | Tags
+
+| - | xref:../problems/933/933. Number of Recent Calls.adoc[933. Number of Recent Calls] | Easy | `Design` `Queue` `Data Stream`
+| - | xref:../problems/649/649. Dota2 Senate.adoc[649. Dota2 Senate] | Medium | `String` `Greedy` `Queue`
 |===
 
 == Linked List
@@ -69,6 +94,11 @@ toc::[]
 [%autowidth.stretch]
 |===
 | Status | Title | Difficulty | Tags
+
+| - | xref:../problems/000/TBD.adoc[TBD] | Medium |
+| - | xref:../problems/000/TBD.adoc[TBD] | Medium |
+| - | xref:../problems/000/TBD.adoc[TBD] | Easy |
+| - | xref:../problems/000/TBD.adoc[TBD] | Medium |
 |===
 
 == Binary Tree - DFS
@@ -76,6 +106,13 @@ toc::[]
 [%autowidth.stretch]
 |===
 | Status | Title | Difficulty | Tags
+
+| - | xref:../problems/000/TBD.adoc[TBD] | Easy |
+| - | xref:../problems/000/TBD.adoc[TBD] | Easy |
+| - | xref:../problems/000/TBD.adoc[TBD] | Medium |
+| - | xref:../problems/000/TBD.adoc[TBD] | Medium |
+| - | xref:../problems/000/TBD.adoc[TBD] | Medium |
+| - | xref:../problems/000/TBD.adoc[TBD] | Medium |
 |===
 
 == Binary Tree - BFS
@@ -83,6 +120,9 @@ toc::[]
 [%autowidth.stretch]
 |===
 | Status | Title | Difficulty | Tags
+
+| - | xref:../problems/000/TBD.adoc[TBD] | Medium |
+| - | xref:../problems/000/TBD.adoc[TBD] | Medium |
 |===
 
 == Binary Search Tree
@@ -90,6 +130,9 @@ toc::[]
 [%autowidth.stretch]
 |===
 | Status | Title | Difficulty | Tags
+
+| - | xref:../problems/000/TBD.adoc[TBD] | Easy |
+| - | xref:../problems/000/TBD.adoc[TBD] | Medium |
 |===
 
 == Graphs - DFS
@@ -97,6 +140,11 @@ toc::[]
 [%autowidth.stretch]
 |===
 | Status | Title | Difficulty | Tags
+
+| - | xref:../problems/000/TBD.adoc[TBD] | Medium |
+| - | xref:../problems/000/TBD.adoc[TBD] | Medium |
+| - | xref:../problems/000/TBD.adoc[TBD] | Medium |
+| - | xref:../problems/000/TBD.adoc[TBD] | Medium |
 |===
 
 == Graphs - BFS
@@ -104,6 +152,9 @@ toc::[]
 [%autowidth.stretch]
 |===
 | Status | Title | Difficulty | Tags
+
+| - | xref:../problems/000/TBD.adoc[TBD] | Medium |
+| - | xref:../problems/000/TBD.adoc[TBD] | Medium |
 |===
 
 == Heap / Priority Queue
@@ -111,6 +162,11 @@ toc::[]
 [%autowidth.stretch]
 |===
 | Status | Title | Difficulty | Tags
+
+| - | xref:../problems/000/TBD.adoc[TBD] | Medium |
+| - | xref:../problems/000/TBD.adoc[TBD] | Medium |
+| - | xref:../problems/000/TBD.adoc[TBD] | Medium |
+| - | xref:../problems/000/TBD.adoc[TBD] | Medium |
 |===
 
 == Binary Search
@@ -118,6 +174,11 @@ toc::[]
 [%autowidth.stretch]
 |===
 | Status | Title | Difficulty | Tags
+
+| - | xref:../problems/000/TBD.adoc[TBD] | Easy |
+| - | xref:../problems/000/TBD.adoc[TBD] | Medium |
+| - | xref:../problems/000/TBD.adoc[TBD] | Medium |
+| - | xref:../problems/000/TBD.adoc[TBD] | Medium |
 |===
 
 == Backtracking
@@ -125,6 +186,9 @@ toc::[]
 [%autowidth.stretch]
 |===
 | Status | Title | Difficulty | Tags
+
+| - | xref:../problems/000/TBD.adoc[TBD] | Medium |
+| - | xref:../problems/000/TBD.adoc[TBD] | Medium |
 |===
 
 == DP - 1D
@@ -132,6 +196,11 @@ toc::[]
 [%autowidth.stretch]
 |===
 | Status | Title | Difficulty | Tags
+
+| - | xref:../problems/000/TBD.adoc[TBD] | Easy |
+| - | xref:../problems/000/TBD.adoc[TBD] | Easy |
+| - | xref:../problems/000/TBD.adoc[TBD] | Medium |
+| - | xref:../problems/000/TBD.adoc[TBD] | Medium |
 |===
 
 == DP - Multidimensional
@@ -139,6 +208,11 @@ toc::[]
 [%autowidth.stretch]
 |===
 | Status | Title | Difficulty | Tags
+
+| - | xref:../problems/000/TBD.adoc[TBD] | Medium |
+| - | xref:../problems/000/TBD.adoc[TBD] | Medium |
+| - | xref:../problems/000/TBD.adoc[TBD] | Medium |
+| - | xref:../problems/000/TBD.adoc[TBD] | Medium |
 |===
 
 == Bit Manipulation
@@ -146,6 +220,10 @@ toc::[]
 [%autowidth.stretch]
 |===
 | Status | Title | Difficulty | Tags
+
+| - | xref:../problems/000/TBD.adoc[TBD] | Easy |
+| - | xref:../problems/000/TBD.adoc[TBD] | Easy |
+| - | xref:../problems/000/TBD.adoc[TBD] | Medium |
 |===
 
 == Trie
@@ -153,6 +231,9 @@ toc::[]
 [%autowidth.stretch]
 |===
 | Status | Title | Difficulty | Tags
+
+| - | xref:../problems/000/TBD.adoc[TBD] | Medium |
+| - | xref:../problems/000/TBD.adoc[TBD] | Medium |
 |===
 
 == Intervals
@@ -160,6 +241,9 @@ toc::[]
 [%autowidth.stretch]
 |===
 | Status | Title | Difficulty | Tags
+
+| - | xref:../problems/000/TBD.adoc[TBD] | Medium |
+| - | xref:../problems/000/TBD.adoc[TBD] | Medium |
 |===
 
 == Monotonic Stack
@@ -167,4 +251,7 @@ toc::[]
 [%autowidth.stretch]
 |===
 | Status | Title | Difficulty | Tags
+
+| - | xref:../problems/000/TBD.adoc[TBD] | Medium |
+| - | xref:../problems/000/TBD.adoc[TBD] | Medium |
 |===
