@@ -4,3 +4,9 @@ https://leetcode.com/problems/find-the-difference-of-two-arrays/description/?env
 
 * Difficulty: Easy
 * Topics: `Array` `Hash Table`
+* Solved?
+  ** [ ] C
+  ** [x] C++
+  ** [x] Java
+  ** [x] Python
+  ** [x] TypeScript

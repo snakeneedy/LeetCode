@@ -1,14 +1,12 @@
-#include <cassert>
 #include <algorithm>
+#include <cassert>
 #include <set>
 #include <vector>
 using namespace std;
 
-class Solution
-{
-public:
-  vector<vector<int>> findDifference(vector<int> &nums1, vector<int> &nums2)
-  {
+class Solution {
+ public:
+  vector<vector<int>> findDifference(vector<int>& nums1, vector<int>& nums2) {
     set<int> set1, set2;
     for (int x : nums1)
       set1.insert(x);
@@ -23,8 +21,7 @@ public:
   }
 };
 
-void testcase01()
-{
+void testcase01() {
   Solution sol;
   vector<int> nums1({1, 2, 3});
   vector<int> nums2({2, 4, 6});
@@ -32,8 +29,8 @@ void testcase01()
   vector<vector<int>> result = sol.findDifference(nums1, nums2);
   assert(expected == result);
 }
-void testcase02()
-{
+
+void testcase02() {
   Solution sol;
   vector<int> nums1({1, 2, 3, 3});
   vector<int> nums2({1, 1, 2, 2});
@@ -41,8 +38,8 @@ void testcase02()
   vector<vector<int>> result = sol.findDifference(nums1, nums2);
   assert(expected == result);
 }
-int main()
-{
+
+int main() {
   testcase01();
   testcase02();
   return 0;
