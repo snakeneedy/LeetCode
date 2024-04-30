@@ -5,8 +5,8 @@ https://leetcode.com/problems/unique-number-of-occurrences/description/?envType=
 * Difficulty: Easy
 * Topics: `Array` `Hash Table`
 * Solved?
-  ** [ ] C
-  ** [ ] C++
-  ** [ ] Java
-  ** [ ] Python
-  ** [ ] TypeScript
+  ** [x] C
+  ** [x] C++
+  ** [x] Java
+  ** [x] Python
+  ** [x] TypeScript
