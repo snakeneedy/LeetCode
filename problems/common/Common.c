@@ -7,6 +7,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#define ARRAY_SIZE(x) (sizeof(x) / sizeof(*(x)))
 
 void print_array(int* arr, int size) {
   /* expected
