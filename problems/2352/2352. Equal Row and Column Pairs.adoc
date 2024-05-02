@@ -4,3 +4,27 @@ https://leetcode.com/problems/equal-row-and-column-pairs/description/?envType=st
 
 * Difficulty: Medium
 * Topics: `Array` `Hash Table` `Matrix` `Simulation`
+* Solved?
+  ** [ ] C
+  ** [ ] C++
+  ** [ ] Java
+  ** [x] Python
+  ** [x] TypeScript
+
+== Memo
+
+I tried to implement the same logic in Python as TypeScript, but it did not run faster as I expected.
+[source,python]
+----
+class Solution:
+    def equalPairs(self, grid: List[List[int]]) -> int:
+        rowFreq = defaultdict(int)
+        for row in grid:
+            rowFreq[tuple(row)] += 1
+        result = 0
+        n = len(grid)
+        for i in range(n):
+            col = tuple(grid[j][i] for j in range(n))
+            result += rowFreq[col]
+        return result
+----
