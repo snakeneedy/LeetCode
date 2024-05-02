@@ -4,3 +4,18 @@ https://leetcode.com/problems/determine-if-two-strings-are-close/description/?en
 
 * Difficulty: Medium
 * Topics: `Hash Table` `String` `Sorting` `Counting`
+* Solved?
+  ** [x] C
+  ** [x] C++
+  ** [x] Java
+  ** [x] Python
+  ** [x] TypeScript
+
+== Solution
+
+`closeStrings()` returns `true` if
+
+* lengths of `word1` and `word2` are equivalent
+* characters frequencies are equivalent in `word1` and `word2`
+  ** kinds of characters are equivalent
+  ** list of sorted counts of characters are equivalent
