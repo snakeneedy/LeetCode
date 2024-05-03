@@ -1,17 +1,18 @@
-from collections import defaultdict
 from typing import List
 
 
 class Solution:
     def equalPairs(self, grid: List[List[int]]) -> int:
+        result = 0
         n = len(grid)
-        rowFreq = defaultdict(int)
-        colFreq = defaultdict(int)
         for i in range(n):
-            col = tuple(grid[j][i] for j in range(n))
-            rowFreq[tuple(grid[i])] += 1
-            colFreq[col] += 1
-        return sum(rowFreq[key] * colFreq[key] for key in rowFreq)
+            col = []
+            for j in range(n):
+                col.append(grid[j][i])
+            for ri in range(n):
+                if grid[ri] == col:
+                    result += 1
+        return result
 
 
 if __name__ == '__main__':

@@ -72,7 +72,7 @@ toc::[]
 | ✅ | xref:../problems/2215/2215. Find the Difference of Two Arrays.adoc[2215. Find the Difference of Two Arrays] | Easy | `Array` `Hash Table`
 | ✅ | xref:../problems/1207/1207. Unique Number of Occurrences.adoc[1207. Unique Number of Occurrences] | Easy | `Array` `Hash Table`
 | ✅ | xref:../problems/1657/1657. Determine if Two Strings Are Close.adoc[1657. Determine if Two Strings Are Close] | Medium | `Hash Table` `String` `Sorting` `Counting`
-| 🚧 | xref:../problems/2352/2352. Equal Row and Column Pairs.adoc[2352. Equal Row and Column Pairs] | Medium | `Array` `Hash Table` `Matrix` `Simulation`
+| ✅ | xref:../problems/2352/2352. Equal Row and Column Pairs.adoc[2352. Equal Row and Column Pairs] | Medium | `Array` `Hash Table` `Matrix` `Simulation`
 |===
 
 == Stack

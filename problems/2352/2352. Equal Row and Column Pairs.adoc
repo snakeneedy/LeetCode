@@ -5,15 +5,15 @@ https://leetcode.com/problems/equal-row-and-column-pairs/description/?envType=st
 * Difficulty: Medium
 * Topics: `Array` `Hash Table` `Matrix` `Simulation`
 * Solved?
-  ** [ ] C
-  ** [ ] C++
-  ** [ ] Java
+  ** [x] C
+  ** [x] C++
+  ** [x] Java
   ** [x] Python
   ** [x] TypeScript
 
 == Memo
 
-I tried to implement the same logic in Python as TypeScript, but it did not run faster as I expected.
+In Python, I've tried to implement the same logic as TypeScript, but it did not run faster as I expected.
 [source,python]
 ----
 class Solution:
@@ -27,4 +27,28 @@ class Solution:
             col = tuple(grid[j][i] for j in range(n))
             result += rowFreq[col]
         return result
+----
+
+In C, assigning a row to a pointer can improve the time performance.
+[source,diff]
+----
+ int equalPairs(int** grid, int gridSize, int* gridColSize) {
+   int result = 0;
+   for (int i = 0; i < gridSize; ++i) {
++    int *row = grid[i];
+     for (int j = 0; j < gridSize; ++j) {
+       bool is_equal = true;
+       for (int k = 0; k < gridSize; ++k) {
+-        if (grid[i][k] != grid[k][j]) {
++        if (row[k] != grid[k][j]) {
+           is_equal = false;
+           break;
+         }
+       }
+       if (is_equal)
+         ++result;
+     }
+   }
+   return result;
+ }
 ----
