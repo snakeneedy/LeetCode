@@ -23,7 +23,7 @@ void print_2d_vector(const vector<vector<int>>& arr) {
   cout << '{';
   if (arr.size() > 0) {
     print_vector(arr[0]);
-    for (int i = 1; i < arr.size(); ++i) {
+    for (size_t i = 1; i < arr.size(); ++i) {
       cout << ",\n ";
       print_vector(arr[i]);
     }
