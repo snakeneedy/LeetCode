@@ -14,29 +14,34 @@ https://support.leetcode.com/hc/en-us/articles/360011833974-What-are-the-environ
 * *TypeScript*: link:https://lodash.com/[`lodash.js`] library is included by default.
 
 .C
+[source,shell]
 ----
 gcc -o a.out -Wall -Wextra -std=c11 -pedantic source.c
 ./a.out
 ----
 
 .C++
+[source,shell]
 ----
 g++ -o a.out -Wall -Wextra -std=c++2a -pedantic source.cpp
 ./a.out
 ----
 
 .Java
+[source,shell]
 ----
 javac SourceClass.java
 java -ea SourceClass
 ----
 
 .Python
+[source,shell]
 ----
 python3.11 source.py
 ----
 
 .TypeScript
+[source,shell]
 ----
 npx tsc --alwaysStrict --strictBindCallApply --strictFunctionTypes --target ES2022 source.ts
 node --harmony source.js
@@ -44,6 +49,7 @@ node --harmony source.js
 
 === Setup TypeScript environment
 
+[source,shell]
 ----
 npm init -y
 npm install --save-dev typescript @types/node
