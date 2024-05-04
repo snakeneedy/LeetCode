@@ -4,3 +4,9 @@ https://leetcode.com/problems/removing-stars-from-a-string/description/?envType=
 
 * Difficulty: Medium
 * Topics: `String` `Stack` `Simulation`
+* Solved?
+  ** [x] C
+  ** [x] C++
+  ** [x] Java
+  ** [x] Python
+  ** [x] TypeScript

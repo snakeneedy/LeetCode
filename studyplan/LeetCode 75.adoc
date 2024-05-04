@@ -81,7 +81,7 @@ toc::[]
 |===
 | Status | Title | Difficulty | Tags
 
-| 🎯 | xref:../problems/2390/2390. Removing Stars From a String.adoc[2390. Removing Stars From a String] | Medium | `String` `Stack` `Simulation`
+| ✅ | xref:../problems/2390/2390. Removing Stars From a String.adoc[2390. Removing Stars From a String] | Medium | `String` `Stack` `Simulation`
 | 🎯 | xref:../problems/735/735. Asteroid Collision.adoc[735. Asteroid Collision] | Medium | `Array` `Stack` `Simulation`
 | 🎯 | xref:../problems/394/394. Decode String.adoc[394. Decode String] | Medium | `String` `Stack` `Recursion`
 |===
