@@ -1,4 +1,5 @@
 #include <cassert>
+using namespace std;
 
 class Solution {
 public:
