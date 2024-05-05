@@ -1,0 +1,20 @@
+= 237. Delete Node in a Linked List
+
+https://leetcode.com/problems/delete-node-in-a-linked-list/description/?envType=daily-question&envId=2024-05-05
+
+* Difficulty: Medium
+* Topics: `Linked List`
+* Solved?
+  ** [x] C
+  ** [x] C++
+  ** [x] Java
+  ** [x] Python
+  ** [x] TypeScript
+
+== Memo
+
+* The best strategy is to copy properties of `node.next` to `node`.
+* For performance issue,
+  ** it is better to assign the `node.next` to an extra node in C, C++, Python
+  ** it takes no difference in Java.
+  ** it takes more time with an extra node in TypeScript.
