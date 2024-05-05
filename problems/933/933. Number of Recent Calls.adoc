@@ -4,3 +4,9 @@ https://leetcode.com/problems/number-of-recent-calls/description/?envType=study-
 
 * Difficulty: Easy
 * Topics: `Design` `Queue` `Data Stream`
+* Solved?
+  ** [x] C
+  ** [x] C++
+  ** [x] Java
+  ** [x] Python
+  ** [x] TypeScript

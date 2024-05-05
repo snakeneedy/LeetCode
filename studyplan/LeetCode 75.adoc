@@ -92,7 +92,7 @@ toc::[]
 |===
 | Status | Title | Difficulty | Tags
 
-| 🎯 | xref:../problems/933/933. Number of Recent Calls.adoc[933. Number of Recent Calls] | Easy | `Design` `Queue` `Data Stream`
+| ✅ | xref:../problems/933/933. Number of Recent Calls.adoc[933. Number of Recent Calls] | Easy | `Design` `Queue` `Data Stream`
 | 🎯 | xref:../problems/649/649. Dota2 Senate.adoc[649. Dota2 Senate] | Medium | `String` `Greedy` `Queue`
 |===
 
