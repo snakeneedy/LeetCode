@@ -102,7 +102,7 @@ toc::[]
 |===
 | Status | Title | Difficulty | Tags
 
-| 🎯 | xref:../problems/2095/2095. Delete the Middle Node of a Linked List.adoc[2095. Delete the Middle Node of a Linked List] | Medium | `Linked List` `Two Pointers`
+| ✅ | xref:../problems/2095/2095. Delete the Middle Node of a Linked List.adoc[2095. Delete the Middle Node of a Linked List] | Medium | `Linked List` `Two Pointers`
 | 🎯 | xref:../problems/328/328. Odd Even Linked List.adoc[328. Odd Even Linked List] | Medium | `Linked List`
 | 🎯 | xref:../problems/206/206. Reverse Linked List.adoc[206. Reverse Linked List] | Easy | `Linked List` `Recursion`
 | 🎯 | xref:../problems/2130/2130. Maximum Twin Sum of a Linked List.adoc[2130. Maximum Twin Sum of a Linked List] | Medium | `Linked List` `Two Pointers` `Stack`
