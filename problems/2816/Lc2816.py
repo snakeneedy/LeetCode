@@ -1,33 +1,5 @@
 from typing import Optional
-from typing import List
-
-
-class ListNode:
-    """Definition for singly-linked list."""
-
-    def __init__(self, val=0, next=None):
-        self.val = val
-        self.next = next
-
-    @classmethod
-    def fromList(cls, values=()):
-        head = None
-        node = None
-        for pos, val in enumerate(values):
-            if 0 < pos:
-                node.next = cls(val)
-                node = node.next
-            else:
-                head = node = cls(val)
-        return head
-
-    def toList(self) -> List[int]:
-        result = []
-        node = self
-        while node:
-            result.append(node.val)
-            node = node.next
-        return result
+from listnode import ListNode
 
 
 class Solution:
@@ -49,16 +21,3 @@ class Solution:
             node.val = val
             node = node.next
         return head
-
-
-def main():
-    sol = Solution()
-
-    head = ListNode.fromList([1, 8, 9])
-    result = sol.doubleIt(head).toList()
-    expected = [3, 7, 8]
-    assert expected == result, f'expected {expected}, but {result}'
-
-
-if __name__ == '__main__':
-    main()
