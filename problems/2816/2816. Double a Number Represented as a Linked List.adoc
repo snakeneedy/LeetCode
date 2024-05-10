@@ -9,4 +9,4 @@ https://leetcode.com/problems/double-a-number-represented-as-a-linked-list/descr
   ** [x] C++
   ** [ ] Java
   ** [x] Python
-  ** [ ] TypeScript
+  ** [x] TypeScript
