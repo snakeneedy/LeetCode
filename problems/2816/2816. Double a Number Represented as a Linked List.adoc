@@ -7,6 +7,6 @@ https://leetcode.com/problems/double-a-number-represented-as-a-linked-list/descr
 * Solved?
   ** [x] C
   ** [x] C++
-  ** [ ] Java
+  ** [x] Java
   ** [x] Python
   ** [x] TypeScript
