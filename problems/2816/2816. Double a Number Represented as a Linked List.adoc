@@ -5,7 +5,7 @@ https://leetcode.com/problems/double-a-number-represented-as-a-linked-list/descr
 * Difficulty: Medium
 * Topics: `Linked List` `Math` `Stack`
 * Solved?
-  ** [ ] C
+  ** [x] C
   ** [x] C++
   ** [ ] Java
   ** [x] Python
