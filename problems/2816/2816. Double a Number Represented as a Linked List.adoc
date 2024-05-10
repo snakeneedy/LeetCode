@@ -10,3 +10,21 @@ https://leetcode.com/problems/double-a-number-represented-as-a-linked-list/descr
   ** [x] Java
   ** [x] Python
   ** [x] TypeScript
+
+== Memo
+
+I got two ways to solve this problem:
+
+. Convert `ListNode` to an array to calculate, then convert it back.
+. Because only when the `val` reach 5, the twice value will reach 10.
+  I prepare a `pre` node to trace higher digit.
+
+.The explanation of each source code:
+|===
+| | C | C++ | Java | Python | TypeScript
+
+| Definition of ListNode | listnode.h | listnode.hpp | ListNode.java | listnode.py | listnode.ts
+| Testing code | Lc2816test.c | Lc2816test.cpp | Lc2816test.java | Lc2816test.py | Lc2816test.ts
+| 1st way | Lc2816_array.c | Lc2816_vector.cpp | Lc2816_ArrayList.java | Lc2816_list.py | Lc2816_array.ts
+| 2nd way | Lc2816.c | Lc2816.cpp | Lc2816.java | Lc2816.py | Lc2816.ts
+|===
